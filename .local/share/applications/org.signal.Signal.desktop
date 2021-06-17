@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Signal
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=signal --file-forwarding org.signal.Signal @@u %U @@ --start-in-tray
+Terminal=false
+Type=Application
+Icon=org.signal.Signal
+StartupWMClass=Signal
+Comment=Private messaging from your desktop
+MimeType=x-scheme-handler/sgnl;
+Categories=Network;InstantMessaging;Chat;
+X-Flatpak-RenamedFrom=signal-desktop.desktop;
+X-Flatpak=org.signal.Signal
